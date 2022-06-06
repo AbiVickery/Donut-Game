@@ -1,4 +1,6 @@
-const noop = () => null
+function noop() {
+    return null
+}
 
 window.Scratch = {
     get vm () {
